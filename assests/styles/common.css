@@ -1,0 +1,36 @@
+:root {
+    --primary: #086a86;
+    --secondary-color: #7ddb59;
+  }
+.breadCrum{
+    background-image: url("../images/joinusbg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.our-mission,.staff,.valuesSection,.part-card{
+    background-color: #086b860c;
+  }
+
+.value-card {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    max-width: 300px;
+    max-height: 300px;
+    transition: background-color 0.4s, color 0.4s, transform 0.4s;
+    cursor: pointer;
+    -webkit-transition: background-color 0.4s, color 0.4s, transform 0.4s;
+    -moz-transition: background-color 0.4s, color 0.4s, transform 0.4s;
+    -ms-transition: background-color 0.4s, color 0.4s, transform 0.4s;
+    -o-transition: background-color 0.4s, color 0.4s, transform 0.4s;
+  
+    min-width: 280px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+

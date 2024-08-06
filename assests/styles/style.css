@@ -18,7 +18,7 @@ body {
   width: 100vw;
   height: calc(100vh + 108px) ;
   background: linear-gradient(#00000080, rgba(0, 0, 0, 0.5)),
-    url("./assests/images/headerbg.png");
+    url("../images/headerbg.png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -237,7 +237,7 @@ body {
 }
 
 .activities {
-  background-image: url("./assests/images/activitybg.svg");
+  background-image: url("../images/activitybg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
